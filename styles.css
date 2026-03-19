@@ -539,6 +539,11 @@ h1 {
 .mock-field {
   height: 52px;
   margin-top: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.95rem;
 }
 
 .mock-row {
@@ -550,15 +555,16 @@ h1 {
 }
 
 .mock-check {
-  width: 120px;
-  height: 16px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.88rem;
 }
 
 .mock-link {
-  width: 90px;
-  height: 16px;
+  width: auto;
+  height: auto;
+  background: transparent;
+  color: var(--cyan);
+  font-size: 0.86rem;
 }
 
 .mock-button {
@@ -566,6 +572,11 @@ h1 {
   height: 46px;
   margin-top: 20px;
   background: linear-gradient(135deg, var(--amber), #ffd98b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #07111f;
+  font-weight: 800;
 }
 
 .mock-app {
@@ -583,6 +594,12 @@ h1 {
 
 .mock-nav span {
   height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.85rem;
+  font-weight: 700;
 }
 
 .mock-content {
@@ -595,6 +612,22 @@ h1 {
   background:
     radial-gradient(circle at 90% 15%, rgba(183, 239, 104, 0.25), transparent 25%),
     linear-gradient(135deg, rgba(74, 215, 209, 0.75), rgba(96, 168, 255, 0.45));
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #07111f;
+}
+
+.mock-hero-card strong {
+  font-size: 1.3rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.mock-hero-card p {
+  margin: 8px 0 0;
+  max-width: 34ch;
+  color: rgba(7, 17, 31, 0.8);
 }
 
 .mock-content-grid {
@@ -603,6 +636,24 @@ h1 {
 
 .mock-content-grid article {
   min-height: 145px;
+  padding: 18px;
+}
+
+.mock-content-grid article strong,
+.mock-table div strong,
+.mock-admin section strong {
+  display: block;
+  font-size: 1rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.mock-content-grid article p,
+.mock-table div p,
+.mock-admin section p {
+  margin: 8px 0 0;
+  color: var(--text-soft);
+  line-height: 1.5;
+  font-size: 0.92rem;
 }
 
 .mock-table-view {
@@ -619,6 +670,12 @@ h1 {
   height: 44px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.86rem;
+  font-weight: 700;
 }
 
 .mock-toolbar span:first-child {
@@ -637,6 +694,7 @@ h1 {
 
 .mock-table div {
   height: 68px;
+  padding: 14px 16px;
 }
 
 .mock-admin {
@@ -645,6 +703,10 @@ h1 {
 
 .mock-admin section {
   min-height: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .timeline {
