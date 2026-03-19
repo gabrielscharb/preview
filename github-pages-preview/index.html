@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intranet Dallo | Previa institucional</title>
+    <meta
+      name="description"
+      content="Previa publica da intranet corporativa com login, dashboard, solicitacoes, ramais e administracao."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">
+            <span class="brand-mark">ID</span>
+            <div>
+              <p>Intranet Dallo</p>
+              <span>Previa publica para GitHub Pages</span>
+            </div>
+          </div>
+          <div class="topbar-actions">
+            <a class="ghost-button" href="#modulos">Explorar modulos</a>
+            <a class="primary-button" href="#publicacao">Publicar</a>
+          </div>
+        </nav>
+
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Projeto real em andamento</p>
+            <h1>Uma vitrine publica da intranet para demonstrar produto, escopo e identidade.</h1>
+            <p class="hero-text">
+              Esta previa apresenta as telas e frentes principais do sistema interno:
+              autenticacao, painel inicial, solicitacoes, ramais e administracao.
+            </p>
+
+            <div class="hero-pills">
+              <span>Vue 3</span>
+              <span>Painel corporativo</span>
+              <span>Fluxos internos</span>
+              <span>Pronto para GitHub Pages</span>
+            </div>
+
+            <div class="metrics">
+              <article>
+                <strong>6</strong>
+                <span>frentes apresentadas</span>
+              </article>
+              <article>
+                <strong>100%</strong>
+                <span>estatico para link publico</span>
+              </article>
+              <article>
+                <strong>1</strong>
+                <span>pasta isolada para deploy</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-preview">
+            <div class="preview-window">
+              <div class="window-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="window-body">
+                <aside class="mini-sidebar">
+                  <div class="mini-logo">ID</div>
+                  <div class="mini-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </aside>
+                <div class="mini-dashboard">
+                  <section class="mini-banner">
+                    <p>Bom dia, colaborador</p>
+                    <span>Painel inicial com atalhos, noticias e status</span>
+                  </section>
+                  <section class="mini-cards">
+                    <article></article>
+                    <article></article>
+                    <article></article>
+                  </section>
+                  <section class="mini-grid">
+                    <article></article>
+                    <article></article>
+                    <article></article>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <section class="section" id="modulos">
+          <div class="section-heading">
+            <p class="eyebrow">Escopo apresentado</p>
+            <h2>Modulos que aparecem na previa</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card accent-cyan">
+              <p class="feature-tag">Autenticacao</p>
+              <h3>Login institucional</h3>
+              <p>Tela de acesso com lembranca de usuario e direcionamento para ambiente interno.</p>
+            </article>
+            <article class="feature-card accent-amber">
+              <p class="feature-tag">Dashboard</p>
+              <h3>Painel de boas-vindas</h3>
+              <p>Resumo visual com atalhos, noticias, aniversariantes e status de empreendimentos.</p>
+            </article>
+            <article class="feature-card accent-slate">
+              <p class="feature-tag">Operacao</p>
+              <h3>Solicitacoes internas</h3>
+              <p>Fluxos de criacao, acompanhamento e aprovacao de demandas internas.</p>
+            </article>
+            <article class="feature-card accent-rose">
+              <p class="feature-tag">Contato</p>
+              <h3>Ramais corporativos</h3>
+              <p>Consulta de contatos e organizacao rapida de informacoes telefonicas internas.</p>
+            </article>
+            <article class="feature-card accent-lime">
+              <p class="feature-tag">Governanca</p>
+              <h3>Permissoes e auditoria</h3>
+              <p>Controles administrativos, perfis, logs e supervisao operacional.</p>
+            </article>
+            <article class="feature-card accent-blue">
+              <p class="feature-tag">Publicacao</p>
+              <h3>Link publico de demonstracao</h3>
+              <p>Material pensado para apresentar o projeto antes do dominio final estar ativo.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section showcase" id="telas">
+          <div class="section-heading">
+            <p class="eyebrow">Previa navegavel</p>
+            <h2>Telas simuladas da intranet</h2>
+          </div>
+
+          <div class="showcase-layout">
+            <div class="tabs" role="tablist" aria-label="Previa de telas">
+              <button class="tab-button active" type="button" data-screen="login">Login</button>
+              <button class="tab-button" type="button" data-screen="dashboard">Dashboard</button>
+              <button class="tab-button" type="button" data-screen="solicitacoes">Solicitacoes</button>
+              <button class="tab-button" type="button" data-screen="admin">Administracao</button>
+            </div>
+
+            <div class="screen-stage">
+              <article class="screen-card active" data-screen-panel="login">
+                <div class="mock-login">
+                  <div class="mock-login-image"></div>
+                  <div class="mock-login-panel">
+                    <span class="mock-badge">Acesso interno</span>
+                    <h3>Entrar na intranet</h3>
+                    <div class="mock-field"></div>
+                    <div class="mock-field"></div>
+                    <div class="mock-row">
+                      <span class="mock-check"></span>
+                      <span class="mock-link"></span>
+                    </div>
+                    <div class="mock-button"></div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="screen-card" data-screen-panel="dashboard">
+                <div class="mock-app">
+                  <aside class="mock-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </aside>
+                  <div class="mock-content">
+                    <section class="mock-hero-card"></section>
+                    <section class="mock-content-grid">
+                      <article></article>
+                      <article></article>
+                      <article></article>
+                      <article></article>
+                    </section>
+                  </div>
+                </div>
+              </article>
+
+              <article class="screen-card" data-screen-panel="solicitacoes">
+                <div class="mock-table-view">
+                  <div class="mock-toolbar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="mock-table">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="screen-card" data-screen-panel="admin">
+                <div class="mock-admin">
+                  <section></section>
+                  <section></section>
+                  <section></section>
+                  <section></section>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section timeline-section">
+          <div class="section-heading">
+            <p class="eyebrow">Narrativa do projeto</p>
+            <h2>O que este link comunica para avaliadores e parceiros</h2>
+          </div>
+
+          <div class="timeline">
+            <article>
+              <span>01</span>
+              <h3>Existe um produto em desenvolvimento</h3>
+              <p>A previa mostra modulos concretos de uma intranet corporativa, nao apenas uma pagina vazia.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Ha identidade visual e proposta funcional</h3>
+              <p>O material explica o tipo de uso, o publico interno e as frentes operacionais do sistema.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>O link pode ficar publico imediatamente</h3>
+              <p>Como a pagina e estatica, ela funciona no GitHub Pages sem backend, build complexa ou servidor dedicado.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section publish-section" id="publicacao">
+          <div class="publish-card">
+            <div>
+              <p class="eyebrow">Deploy</p>
+              <h2>Estrutura pronta para publicacao</h2>
+              <p>
+                A pasta <code>github-pages-preview/</code> concentra os arquivos publicos.
+                O workflow publica essa pasta no GitHub Pages sempre que houver push em
+                <code>main</code> ou <code>master</code>.
+              </p>
+            </div>
+            <div class="publish-checklist">
+              <span>Preview separada do app principal</span>
+              <span>Sem dependencia de API</span>
+              <span>Compatvel com dominio customizado depois</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
